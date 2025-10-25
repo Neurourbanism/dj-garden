@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DJ Garden Ring</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>DJ Garden Ring</h1>
+
+<div id="padGrid">
+  <!-- 9 pads -->
+  <button class="pad green" data-sound="nature1">🌲</button>
+  <button class="pad green" data-sound="nature2">🌊</button>
+  <button class="pad red"   data-sound="traffic1">🚗</button>
+
+  <button class="pad green" data-sound="birds">🐦</button>
+  <button class="pad green" data-sound="wind">💨</button>
+  <button class="pad red"   data-sound="tram">🚋</button>
+
+  <button class="pad red"   data-sound="horn">📢</button>
+  <button class="pad green" data-sound="fountain">⛲</button>
+  <button class="pad red"   data-sound="motorbike">🏍️</button>
+</div>
+
+<div id="controls">
+  <button id="rec">⏺ REC</button>
+  <button id="stop" disabled>⏹ STOP</button>
+  <a id="download" style="display:none">Download WAV</a>
+</div>
+
+<script src="pads.js"></script>
+<script src="recorder.js"></script>
+</body>
+</html>
